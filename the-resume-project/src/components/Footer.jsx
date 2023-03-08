@@ -37,13 +37,13 @@ function Footer() {
               <div className="footer-social-info">
                 <a href="https://shorturl.asia/PsiYG">
                   <img
-                    src="./src/pictures/linkedin-logo.png"
+                    src="https://sv1.picz.in.th/images/2023/03/08/eQlWeV.png"
                     alt="linkedin profile"
                   />
                 </a>
                 <a href="https://github.com/FahSudarad">
                   <img
-                    src="./src/pictures/github-logo.png"
+                    src="https://sv1.picz.in.th/images/2023/03/08/eQjIKE.png"
                     alt="github profile"
                   />
                 </a>

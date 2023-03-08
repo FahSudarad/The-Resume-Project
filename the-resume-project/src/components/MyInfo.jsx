@@ -3,7 +3,7 @@ function MyInfo() {
     <>
       <div className="my-info">
         <div className="info-img">
-          <img src="./src/pictures/my-info.png"></img>
+          <img src="https://sv1.picz.in.th/images/2023/03/08/eQl03Q.png"></img>
         </div>
         <div className="info-text">
           <h1>MY INFO</h1>

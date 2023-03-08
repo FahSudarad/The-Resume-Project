@@ -139,6 +139,7 @@ img.work-img {
 
 .work-info {
   text-align: justify;
+  word-spacing: -3px;
 }
 
 .box-1,

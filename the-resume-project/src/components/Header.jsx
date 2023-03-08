@@ -18,7 +18,7 @@ function Header() {
           <h2>FAH</h2>
         </div>
         <div className="img-header">
-          <img src="https://1drv.ms/u/s!ArOscCYkB0Kgan59LFzBqZWUT7Y?e=njIIpO" alt="Profile Picture" />
+          <img src="https://sv1.picz.in.th/images/2023/03/08/eQl7bS.jpg" alt="Profile Picture" />
         </div>
       </div>
     </>

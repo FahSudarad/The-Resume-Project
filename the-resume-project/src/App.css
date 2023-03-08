@@ -1,0 +1,331 @@
+* {
+  font-family: 'Chakra Petch', sans-serif;
+  font-family: 'Kodchasan', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.my-profile-blog {
+  height: 100vh;
+  width: 100vw;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 5rem 10rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.intro-header {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-right: 5rem;
+  margin-bottom: 30px;
+}
+
+.img-header {
+  width: 500px;
+}
+
+.img-header img {
+  width: 100%;
+  border-radius: 30px;
+}
+
+.header {
+  background-color: #6ABAEE;
+}
+
+.my-info,
+.info-text,
+.work-experience,
+.skills {
+  background-color: #FFFFEF;
+}
+
+.intro-header h1 {
+  color: #FFF42C;
+}
+
+.header h3,
+.header h2 {
+  color: white;
+}
+
+.my-info {
+  display: flex;
+  flex-direction: row;
+  padding: 5rem 10rem;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+}
+
+.info-img {
+  width: 500px;
+}
+
+.info-img img {
+  width: 100%;
+}
+
+.info-text {
+  width: 400px;
+}
+
+.my-info h1,
+.work-experience h1,
+.skills h1 {
+  color: #F19057;
+}
+
+.my-info h3,
+.my-info li,
+.work-info,
+.work-title h3 {
+  color: #A27E66;
+}
+
+.info-text h3 {
+  margin: 8px 0px 5px 0px;
+}
+
+.work-experience {
+  padding: 0 10rem 5rem 10rem;
+}
+
+.work-experience h1,
+.skills h1,
+.footer-title h1 {
+  margin-bottom: 40px;
+}
+
+.work-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.work-img {
+  width: 200px;
+  height: 200px;
+  overflow-y: hidden;
+  margin-bottom: 20px;
+}
+
+.box-1,
+.box-2,
+.box-3 {
+  width: 380px;
+}
+
+img.work-img {
+  border-radius: 100px;
+  width: 100%;
+}
+
+.work-info {
+  text-align: justify;
+}
+
+.box-1,
+.box-2 {
+  margin-right: 20px;
+}
+
+.skills {
+  padding: 0 10rem 5rem 10rem;
+}
+
+.skills-box-all {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .skills-box-all {
+    justify-content: center;
+  }
+}
+
+.skills-box {
+  width: 30%;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #A27E66;
+}
+
+.skills-box {
+  width: 150px;
+}
+
+.skills-box img {
+  width: 100%;
+}
+
+.footer {
+  padding: 4rem 10rem;
+  background-image: url("./src/pictures/footer-bg.png");
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-color: #6ABAEE;
+  width: 100%;
+}
+
+.footer-title h1,
+.footer-social-info h2 {
+  color: white;
+}
+
+.footer-social-name h3 {
+  background-color: #FFF42C;
+  padding: 15px;
+  border-radius: 20px;
+  width: 150px;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.footer-box1 {
+  width: 30%;
+}
+
+.footer-box-all {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-social-box1 a {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.footer-social-info img {
+  margin-right: 20px;
+}
+
+.box-1,
+.box-2,
+.box-3 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.footer-social-box1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+  align-items: center;
+}
+
+.footer-social-info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+
+  .header,
+  .my-info,
+  .work-experience,
+  .skills,
+  .footer {
+    padding: 2rem 5rem 1rem 5rem;
+  }
+
+  .intro-header {
+    margin-bottom: 30px;
+  }
+
+  .header {
+    width: 100%;
+    padding-bottom: 35px;
+    justify-content: center;
+  }
+
+  .intro-header {
+    width: 100%;
+    text-align: center;
+    margin-right: 0px;
+  }
+
+  .img-header {
+    width: 400px;
+  }
+
+  .footer {
+    background-image: none;
+  }
+
+  .footer-social-box1 {
+    justify-content: center;
+  }
+
+  .footer-title {
+    text-align: center;
+  }
+
+  .footer h2,
+  .footer-social-info {
+    margin-top: 10px;
+  }
+
+  .info-img {
+    margin-bottom: 20px;
+  }
+
+  .info-text h1 {
+    text-align: center;
+    line-height: 3rem;
+  }
+
+  .work-experience h1,
+  .skills h1 {
+    text-align: center;
+  }
+
+  .footer-social-name h3 {
+    margin-right: 0px;
+  }
+
+  .footer-social-box1 a {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .footer-social-box1 {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .work-box {
+    justify-content: center;
+  }
+
+  .footer-box-all {
+    justify-content: center;
+  }
+}

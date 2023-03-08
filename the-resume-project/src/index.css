@@ -1,0 +1,13 @@
+h1 {
+  font-size: 5em;
+  line-height: 1.1;
+  overflow-y: hidden;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2em;
+    line-height: 1.1;
+    overflow-y: hidden;
+  }
+}

@@ -329,4 +329,7 @@ img.work-img {
   .footer-box-all {
     justify-content: center;
   }
+  .footer-social-info h2 {
+    font-size: 18px;
+}
 }

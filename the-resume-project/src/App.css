@@ -337,3 +337,9 @@ img.work-img {
     background-color: gray;
     color: white;
 }
+.footer-social-info h2:hover {
+    color: gray;
+}
+.footer-social-box1 a:hover {
+    opacity: 0.3;
+}

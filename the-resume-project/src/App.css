@@ -333,3 +333,7 @@ img.work-img {
     font-size: 18px;
 }
 }
+.footer-social-name h3:hover {
+    background-color: gray;
+    color: white;
+}

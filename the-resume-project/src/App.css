@@ -246,7 +246,11 @@ img.work-img {
   flex-direction: row;
   flex-wrap: wrap;
 }
-
+@media (max-width: 1288px) {
+ .footer {
+   background-image: none;
+  }
+}
 @media (max-width: 768px) {
 
   .header,
@@ -275,10 +279,6 @@ img.work-img {
 
   .img-header {
     width: 400px;
-  }
-
-  .footer {
-    background-image: none;
   }
 
   .footer-social-box1 {
